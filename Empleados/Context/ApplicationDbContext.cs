@@ -14,7 +14,7 @@ namespace Empleados.Context
         {
             //Cadena de conexion
             optionsBuilder.UseMySQL("server=localhost; database=Empleado23am; user=root; password=");
-            //Si hay error con la mmigracion prueba esta
+            //Si hay error con la migracion prueba esta
             //optionsBuilder.UseMySQL("Server=localhost;port=3306;User ID=root; Database=Empleados23BM");
         }
         //Mapeo de la BD
